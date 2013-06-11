@@ -1,0 +1,15 @@
+Test Problems for FST Modeling
+
+So you want to write an FST but you don't know where to start? Here are a few challenges of modeling, listed in order of complication.
+
+Using the file noun.txt, write a set of XFST rules and/or a lexicon that accepts nouns and their plurals if the root of the noun is in noun.txt
+
+Using the file adj.txt, write a set of XFST rules and/or a lexicon that accepts simple adjectives, comparatives, and superlatives if the root of the adjective is in adj.txt.
+
+Using the file verb.txt, write a set of XFST rules and/or a lexicon that accepts present tense, past tense, and gerunds if the root of the verb is in verb.txt.
+
+Using ascii.gif, write a FST that will convert from binary to ascii characters.
+
+Using verb.txt, noun.txt and adj.txt, create a FST that will accept a secret language like Pig Latin or Elephant (http://www.goaliestore.com/board/hockey-talk/47742-alternative-secret-languages.html)
+
+Using nahuatl.pdf, solve the linguistic problem, and then write a FST that models the words noted in the problem. There should be denotation of pronouns, tense, and aspect in these words. Consider using the tags: 1st+ 2nd+ 3rd+ PAST+ PRES+ PROG+
